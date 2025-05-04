@@ -346,7 +346,7 @@ export const swaggerDocument = {
                 }
             }
         },
-        '/api/reports/reports/repeated-words': {
+        '/api/reports/repeated-words': {
             get: {
                 tags: ['Reports'],
                 summary: 'Get reports with words that appear at least three times',
