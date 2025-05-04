@@ -40,3 +40,36 @@ NOTE: You can use ([db.service.ts](./src/services/db.service.ts)) to handle SQL 
 
 \
 Happy coding!
+
+## UPDATE: Completed the coding
+
+### API Endpoints
+
+#### Projects
+- `GET /api/projects` - Getting all the projects
+- `GET /api/projects/:id` - Getting a project with a given ID
+- `POST /api/projects` - Creating a new project
+- `PUT /api/projects/:id` - Updating an existing project
+- `DELETE /api/projects/:id` - Deleting an existing project
+
+#### Reports
+- `GET /api/reports` - Getting all the reports
+- `GET /api/reports/:id` - Getting a report with a given ID
+- `POST /api/reports` - Creating a new report
+- `PUT /api/reports/:id` - Updating an existing report
+- `DELETE /api/reports/:id` - Deleting an existing report
+- `GET /api/reports/repeated-words` - Getting the reports that have a same word appears at least three times
+
+### Security
+- All the API endpoints are protected via a basic token which is "Password123"
+
+### For Running
+
+Please clone the updates and install npm and then start the server:
+```bash
+npm install
+npm run dev
+```
+
+### Comments
+Please have a look at the comments which are placed to inform you at the critical points.
